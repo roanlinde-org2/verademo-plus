@@ -1,0 +1,7 @@
+debug: true
+
+actions:
+  veracode_static_scan:
+    build:
+      predependency_command: | 
+        export VERACODE_PACKAGE_JAVA_SOURCE=true
