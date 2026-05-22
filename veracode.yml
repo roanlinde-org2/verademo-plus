@@ -1,3 +1,7 @@
+# This is a configuration file used to configure The Veracode scanner. It supplements the default configuration for projects
+# using java.
+# Example comments
+
 debug: true
 
 actions:
