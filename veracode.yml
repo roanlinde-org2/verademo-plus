@@ -9,3 +9,4 @@ actions:
     build:
       predependency_command: | 
         export VERACODE_PACKAGE_JAVA_SOURCE=true
+        # testing whether source is visible on the platform
