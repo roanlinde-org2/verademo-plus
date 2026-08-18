@@ -4,6 +4,16 @@
 
 debug: true
 
+veracode_static_scan:
+  pull_request:
+    trigger: true
+    action:
+      - opened
+      - synchronize
+    target_branch:
+      - "release*"
+
+
 actions:
   veracode_static_scan:
     build:
