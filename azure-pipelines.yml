@@ -21,6 +21,7 @@ steps:
     goals: 'package'
 - task: Bash@3
   displayName: Veracode Pipeline
+  #  old and should be removed
   inputs:
     targetType: 'inline'
     script: |
