@@ -69,6 +69,7 @@ Start the stack:
 Then, in a second terminal, start file watching:
 
     docker compose watch
+    # ensure docker is active
 
 What this does:
 
