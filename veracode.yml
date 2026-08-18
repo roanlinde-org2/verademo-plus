@@ -11,7 +11,8 @@ veracode_static_scan:
       - opened
       - synchronize
     target_branch:
-      - "release*"
+      - release*
+      - main
 
 
 actions:
