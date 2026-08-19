@@ -23,6 +23,7 @@ steps:
   displayName: Veracode Pipeline
   inputs:
     targetType: 'inline'
+    # This is terrible old and should be replaced 
     script: |
       curl -sSO https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
       unzip -o pipeline-scan-LATEST.zip
